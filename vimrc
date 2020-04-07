@@ -4,6 +4,18 @@
 " Highlights matching search results when using /searchItem
 :set hlsearch
 
+" Replace tabs with whitespaces
+:set expandtab
+
+" Width of tab character
+:set tabstop=4
+
+" Fine tunes amount of whitespace to be added
+:set softtabstop=4
+
+" Determines the amount of whitespace to add in normal mode
+:set shiftwidth=4
+
 " Sets the font style
 " took this from :help setting-guifont
 if has("gui_running")
