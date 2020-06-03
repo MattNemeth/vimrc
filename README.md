@@ -11,4 +11,4 @@ When pasting from system clipboard into vim
 4. exit insert
 5. :set no paste
 
-
+For Ubuntu and likely for other Distros - /usr/share/vim has a vimrc file that looks for a local vimrc.local file in /etc/vim/
