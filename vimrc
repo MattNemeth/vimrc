@@ -1,6 +1,9 @@
 " Adds line numbers
 :set number
 
+" Better syntax highglighting
+:colorscheme desert
+
 " Highlights matching search results when using /searchItem
 :set hlsearch
 

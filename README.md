@@ -12,3 +12,6 @@ When pasting from system clipboard into vim
 5. :set no paste
 
 For Ubuntu and likely for other Distros - /usr/share/vim has a vimrc file that looks for a local vimrc.local file in /etc/vim/
+
+For my Raspberry Pi 0, I need to put the vimrc file in /etc/vim/ and the file is called vimrc (.vimrc doesn't work)
+I have my vimrc repo underneath /home/vimrc because I thought that's where it needed to go but it doesnt source from there
